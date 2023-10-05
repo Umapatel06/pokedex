@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Update with your CSS file -->
+    <title>Pokemon Details</title>
+</head>
+<body>
+    <header>
+        <h1>Pokemon Details</h1>
+    </header>
+    
+    <div id="pokemon-details">
+        <!-- Place Pokemon details content here -->
+    </div>
+
+    <div class="details">
+        <div class="tabs">
+            <span data-tab-value="#tab_1">Overview</span>
+            <span data-tab-value="#tab_2">Stats</span>
+            <span data-tab-value="#tab_3">Evolution</span>
+        </div>
+
+        <div id="tab-content">
+            <div class="tabs__tab active" id="tab_1" data-tab-info>
+                <!-- Place Overview content here -->
+            </div>
+            <div class="tabs__tab" id="tab_2" data-tab-info>
+                <!-- Place Stats content here -->
+            </div>
+            <div class="tabs__tab" id="tab_3" data-tab-info>
+                <!-- Place Evolution content here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add a footer if needed -->
+
+    <!-- Preloader -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Preloader ends -->
+
+    <script src="script.js"></script> <!-- Update with your JavaScript file -->
+</body>
+</html>
